@@ -1,4 +1,4 @@
-console.info("MonkeyPatch script initializing..");
+//console.info("DT SPA script initializing..");
 (function() {
     'use strict';
     var _wr = function(type) {
@@ -31,5 +31,5 @@ console.info("MonkeyPatch script initializing..");
             dtrum.leaveAction(action);
         }
     });
-    console.info("Monkeypatch ready to go");
+    //console.info("DT SPA patch ready to go");
 })();
