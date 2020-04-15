@@ -13,7 +13,8 @@ A new event listener is then added for these events which calls the Dynatrace RU
 This code snippet should just be run once per page load to avoid creating multiple 
 
 ## Timing Data
-**note** the timing data generated for the 
+**note** The user actions this script generates are to get visibility of page views for users, and doesn't provide accurate timings of these page loads
+(the script just calls enter action followed immeidately by leaveaction to generate a UA in dynatrace) 
 
 # Usage 
 ## Including through Google Tag Manager
